@@ -8,6 +8,11 @@
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
+.mainView2 {
+    height: 75vh;
+    overflow: auto;
+}
+
 .myname{
     margin-right: 30% !important;
 }
