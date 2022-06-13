@@ -1,0 +1,26 @@
+*{
+    font-family: 'Faustina', serif;
+}
+.mainView {
+    height: 100vh;
+    overflow: auto;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.myname{
+    margin-right: 50% !important;
+}
+.navglow:hover{
+    color: yellow !important;
+    text-shadow: -3px 0px 9px rgba(255, 244, 96, 1);
+}
+
+.resumeBtn:hover{
+    border-color: yellow !important;
+    color: yellow !important;
+}
+
+.resumeImg{
+    width: 20px;
+}
