@@ -28,6 +28,7 @@
 
 .resumeImg{
     width: 3vh;
+    margin-left: 8px;
 }
 
 .eqHeight{
@@ -36,24 +37,37 @@
 }
 
 .name{
-    font-size: 8vh;
+    font-size: 6vh;
     font-family: 'Amiri', serif !important; 
 }
-.typed-out{
-    overflow: hidden;
-    border-right: .05em solid orange;
-    white-space: nowrap;
-    animation: 
-    typing 3s steps(40, end) forwards;
+
+  .small{
+    margin-left: 10%;
+    padding-left: 10%;
   }
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 90% }
+  .resfnt{
+    font-size: 16px;
   }
 
 @media only screen and (max-width: 768px) {
     .mainView2{
-        height: 75vh;
+        height: 70vh;
         overflow: auto;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .small{
+        margin: 0px !important;
+        padding: 0px !important;
+        text-align: left;
+    }
+    .resumeImg{
+        width: 15px;
+        margin: 0px !important;
+        padding: 0px!important;
+    }
+    .resfnt{
+        font-size: 14px !important;
     }
 }
