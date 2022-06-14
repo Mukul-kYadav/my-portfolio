@@ -9,11 +9,11 @@
 }
 
 .mainView2 {
-    height: 75vh;
+    height: 100vh;
     overflow: auto;
 }
 
-.myname{
+.navname{
     margin-right: 30% !important;
 }
 .navglow:hover{
@@ -27,5 +27,33 @@
 }
 
 .resumeImg{
-    width: 20px;
+    width: 3vh;
+}
+
+.eqHeight{
+    display: inline-block !important;
+    height: 20vh !important;
+}
+
+.name{
+    font-size: 8vh;
+    font-family: 'Amiri', serif !important; 
+}
+.typed-out{
+    overflow: hidden;
+    border-right: .05em solid orange;
+    white-space: nowrap;
+    animation: 
+    typing 3s steps(40, end) forwards;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 90% }
+  }
+
+@media only screen and (max-width: 768px) {
+    .mainView2{
+        height: 75vh;
+        overflow: auto;
+    }
 }
