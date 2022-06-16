@@ -57,12 +57,17 @@
     font-family: 'Amiri', serif !important; 
 }
 
-  .small{
+.small{
     margin-left: 10%;
     padding-left: 10%;
   }
-  .resfnt{
+.resfnt{
     font-size: 16px;
+  }
+  .sosMed{
+    position: absolute;
+    top: 50%;
+    left: 0;
   }
 
 
@@ -87,4 +92,11 @@
     .resfnt{
         font-size: 14px !important;
     }
+    .sosMed{
+        top: 85%;
+        left: 40%;
+        padding: 3px;
+        margin: 0 0 0 0 !important;
+    }
+
 }
