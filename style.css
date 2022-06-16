@@ -31,6 +31,22 @@
     margin-left: 8px;
 }
 
+.dwnArr{
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY();
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    60%{
+        transform: translateY(-15px);
+    }
+}
+
 .eqHeight{
     display: inline-block !important;
     height: 20vh !important;
@@ -48,6 +64,7 @@
   .resfnt{
     font-size: 16px;
   }
+
 
 @media only screen and (max-width: 768px) {
     .mainView2{
