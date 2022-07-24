@@ -1,102 +1,116 @@
-*{
-    font-family: 'Faustina', serif;
+* {
+     font-family: "Faustina", serif;
 }
 .mainView {
-    height: 100vh;
-    overflow: auto;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+     height: 100vh;
+     overflow: auto;
+     background: rgb(0, 0, 0);
+     background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 1) 0%,
+          rgba(255, 255, 255, 1) 100%
+     );
 }
 
 .mainView2 {
-    height: 100vh;
-    overflow: auto;
+     height: 100vh;
+     overflow: auto;
 }
 
-.navname{
-    margin-right: 30% !important;
+.navname {
+     margin-right: 30% !important;
 }
-.navglow:hover{
-    color: yellow !important;
-    text-shadow: -3px 0px 9px rgba(255, 244, 96, 1);
-}
-
-.resumeBtn:hover{
-    border-color: yellow !important;
-    color: yellow !important;
+.navglow:hover {
+     color: yellow !important;
+     text-shadow: -3px 0px 9px rgba(255, 244, 96, 1);
 }
 
-.resumeImg{
-    width: 3vh;
-    margin-left: 8px;
+.resumeBtn:hover {
+     border-color: yellow !important;
+     color: yellow !important;
 }
 
-.dwnArr{
-    animation: bounce 2s infinite;
+.resumeImg {
+     width: 3vh;
+     margin-left: 8px;
+}
+
+.dwnArr {
+     animation: bounce 2s infinite;
+}
+
+.gradientColor {
+     background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 1) 0%,
+          rgba(255, 255, 255, 1) 100%
+     );
 }
 
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100%{
-        transform: translateY();
-    }
-    40%{
-        transform: translateY(-30px);
-    }
-    60%{
-        transform: translateY(-15px);
-    }
+     0%,
+     20%,
+     50%,
+     80%,
+     100% {
+          transform: translateY();
+     }
+     40% {
+          transform: translateY(-30px);
+     }
+     60% {
+          transform: translateY(-15px);
+     }
 }
 
-.eqHeight{
-    display: inline-block !important;
-    height: 20vh !important;
+.eqHeight {
+     display: inline-block !important;
+     height: 20vh !important;
 }
 
-.name{
-    font-size: 6vh;
-    font-family: 'Amiri', serif !important; 
+.name {
+     font-size: 6vh;
+     font-family: "Amiri", serif !important;
 }
 
-.small{
-    margin-left: 10%;
-    padding-left: 10%;
-  }
-.resfnt{
-    font-size: 16px;
-  }
-  .sosMed{
-    position: absolute;
-    top: 50%;
-    left: 0;
-  }
-
+.small {
+     margin-left: 10%;
+     padding-left: 10%;
+}
+.resfnt {
+     font-size: 16px;
+}
+.sosMed {
+     position: absolute;
+     top: 50%;
+     left: 0;
+}
 
 @media only screen and (max-width: 768px) {
-    .mainView2{
-        height: 70vh;
-        overflow: auto;
-    }
-    .name{
-        font-size: 30px;
-    }
-    .small{
-        margin: 0px !important;
-        padding: 0px !important;
-        text-align: left;
-    }
-    .resumeImg{
-        width: 15px;
-        margin: 0px !important;
-        padding: 0px!important;
-    }
-    .resfnt{
-        font-size: 14px !important;
-    }
-    .sosMed{
-        top: 85%;
-        left: 40%;
-        padding: 3px;
-        margin: 0 0 0 0 !important;
-    }
-
+     .mainView2 {
+          height: 70vh;
+          overflow: auto;
+     }
+     .name {
+          font-size: 30px;
+     }
+     .small {
+          margin: 0px !important;
+          padding: 0px !important;
+          text-align: left;
+     }
+     .resumeImg {
+          width: 15px;
+          margin: 0px !important;
+          padding: 0px !important;
+     }
+     .resfnt {
+          font-size: 14px !important;
+     }
+     .sosMed {
+          top: 85%;
+          left: 40%;
+          padding: 3px;
+          margin: 0 0 0 0 !important;
+     }
 }
