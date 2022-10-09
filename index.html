@@ -161,7 +161,7 @@
                                         class="col text-center eqHeight p-0 small name"
                                    >
                                         <a
-                                             href="https://drive.google.com/file/d/1nuTRnHEjNSJl_sZ9xNuAfBxSjLGGAlMQ/view?usp=sharings"
+                                             href="https://drive.google.com/file/d/1cZAq-bwQvx7PY49hk6YfObOYRc9OvcJ7/view?usp=sharing"
                                         >
                                              <button
                                                   class="bg-transparent border border-light border-2 text-light rounded-pill resumeBtn ps-3 pe-3 shadow mt-3"
@@ -641,20 +641,43 @@
                     </main>
                </div>
 
-               <!-- Contact me -->
+               <!-- Contact me Form-->
                <div
                     class="container-fluid m-0 gradientColor row"
                     id="contact-me"
                >
-                    <iframe
-                         src="https://docs.google.com/forms/d/e/1FAIpQLScC2x73sZBHj7N5vRujOjcE5niY5aXxNuEoYMQ-jlPTFjW_LA/viewform?embedded=true"
-                         width="640"
-                         height="850"
-                         frameborder="0"
-                         marginheight="0"
-                         marginwidth="0"
-                         >Loading…</iframe
-                    >
+                    <div style="color: rgb(255, 134, 21);" class="text-center pb-2 fs-1">
+                         Contact Me
+                    </div>
+                    <form class="d-flex align-items-center justify-content-center" action="" id="cmform">
+                         <fieldset style="color: white;" class="">
+                              <div class="form-row">
+                                   <div class="col">
+                                        <label>First name *</label>
+                                        <input type="text" name="first-name" class="form-control" placeholder="eg. Mukul" required>
+                                   </div>
+                                   <div class="col">
+                                        <label>Last name *</label>
+                                        <input type="text" name="last-name" class="form-control" placeholder="eg. Yadav" required>
+                                   </div>
+                              </div>
+                              
+                              <div class="form-row">
+                                   <div class="form-group col">
+                                   <label >Email *</label>
+                                   <input type="email" name="email" class="form-control" placeholder="eg. ymukul618@gmail.com" required>
+                                   </div>
+                              </div>
+                              <div class="form-row">
+                                   <label >Message</label>
+                                   <textarea class="form-control" name="message" id="" cols="70%" rows="10"></textarea>
+                              </div>
+                              <div class="form-row mt-3" id="subBtndiv"> 
+                                   <p id="showAtBtn" class="text-danger" style="display: none;">Your message is sent! Mukul will get to you soon.</p>
+                                   <button type="submit" class="btn" id="formSubmit" style="background-color: rgb(255, 134, 21);" >Send Message</button>
+                              </div>
+                         </fieldset>
+                    </form>
                </div>
           </main>
 
@@ -757,12 +780,19 @@
                </footer>
           </div>
 
+          <script src="form.js"></script>
           <script src="script.js"></script>
 
           <script
                src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
                integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
                crossorigin="anonymous"
+          ></script>
+          <script
+               src="https://platform.linkedin.com/badges/js/profile.js"
+               async
+               defer
+               type="text/javascript"
           ></script>
      </body>
 </html>
